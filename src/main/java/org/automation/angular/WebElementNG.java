@@ -2,7 +2,9 @@ package org.automation.angular;
 
 
 import org.automation.angular.scripts.Evaluate;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.*;
 import org.openqa.selenium.remote.RemoteWebElement;
 
 import java.util.ArrayList;
