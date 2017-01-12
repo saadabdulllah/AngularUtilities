@@ -4,7 +4,11 @@ import org.automation.angular.WebDriverNG;
 import org.automation.angular.WebElementNG;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.lift.find.BaseFinder;
+
+import java.util.Collection;
 
 /**
  * Created by shantonu on 9/2/16.
@@ -13,12 +17,10 @@ import org.openqa.selenium.lift.find.BaseFinder;
 public abstract class HtmlTagFinderNG extends BaseFinder<WebElementNG, WebDriverNG> {
 
 
-
-  /*  @Override
+ /*   @Override
     protected Collection<WebElement> extractFrom(WebDriverNG context) {
         return context.findElements(By.xpath("//" + tagName()));
-    }
-*/
+    }*/
     @Override
     protected void describeTargetTo(Description description) {
         description.appendText(tagDescription());
