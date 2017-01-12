@@ -2,7 +2,7 @@ package org.automation.angular;
 
 
 import org.automation.angular.scripts.WaitForAngular;
-import org.openqa.selenium.By;
+import org.openqa.selenium.*;
 
 import java.util.ArrayList;
 import java.util.List;

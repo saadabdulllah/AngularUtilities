@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.lift.TestContext;
 import org.openqa.selenium.lift.find.Finder;
+import org.openqa.selenium.support.ui.*;
+
 
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;
